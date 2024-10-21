@@ -1,0 +1,126 @@
+/*font awesome*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css);
+
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: .2s linear;
+
+}
+
+body
+{
+    background-image: url(backgroung_image.jpg)  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background :cover;
+    margin-top: 100px;
+}
+
+.container
+{
+    background-color: white;
+    width: 400px;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.container h2
+{
+color: rgb(48, 46, 46);
+font-size: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+
+.password-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.password-container
+
+{
+    font-size: 17px;
+    color: rgb(46, 42, 42);
+}
+
+.container .password-container #copy-btn
+{
+
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+}
+
+.container .Options .list
+{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .Options .list label
+{
+    color: #666;
+    user-select: none;
+}
+
+.container .Options .list input[type="checkbox"]
+ {
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.container .Options .list input[type="checkbox"]:checked{
+    border-radius: 50%;
+    background-color: #334;
+}
+
+.container .Options .list input[type="number"]
+{
+    border: 2px solid rgb(90, 90, 92);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 17px;
+    
+}
+
+#generate-btn{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #3b26d6d7;
+    text-align: center;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
